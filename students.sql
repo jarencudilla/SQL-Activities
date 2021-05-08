@@ -55,13 +55,10 @@ DELETE FROM students WHERE id = 6;
 
 
 
-SELECT COUNT(id)
-FROM students
+SELECT * FROM students COUNT(id);
 
-SELECT location = 'Manila'
-FROM students
+SELECT * FROM students WHERE location = 'Manila';
 
-SELECT AVG(age)
-FROM students
+SELECT AVG(age) FROM students;
 
 SELECT * FROM students ORDER BY id DESC;
