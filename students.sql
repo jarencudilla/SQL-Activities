@@ -61,4 +61,4 @@ SELECT * FROM students WHERE location = 'Manila';
 
 SELECT AVG(age) FROM students;
 
-SELECT * FROM students ORDER BY id DESC;
+SELECT * FROM students ORDER BY age DESC;
